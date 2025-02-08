@@ -1,0 +1,404 @@
+body {
+  
+    font-family:  BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(49, 44, 44);
+    margin: 0;
+    padding: 20px;
+    
+  
+  
+  }
+  h1{
+    justify-content: center;
+  
+    font-size: 80px;
+    
+    text-align: center;
+    
+  }
+  .resume-container {
+    position: sticky;
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    background: linear-gradient(to right, rgb(2, 87, 88) 0%, rgb(221, 189, 9) 50%, rgb(6, 245, 213) 100%);
+    padding: 40px;
+    border-radius: 10px;
+    
+}
+
+  /* Left Section */
+  .left-section {
+    border-radius: 10px;
+    color: white;
+    padding: 20px;
+    background-color: rgb(8, 8, 8) ; 
+    width: 30%;
+    text-align: center;
+    border-right: 2px solid rgb(248, 207, 3); /* Thinner border */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Pushes the skills section to the bottom */
+  }
+  
+  
+  
+  * Parent container */
+  .img-pic {
+  
+    
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: right; /* Vertically center */
+    height: 100vh; /* Full height of the viewport or parent */
+  }
+  
+  /* Profile picture */
+  .profile-picture {
+    
+    
+    margin-top: 10%;
+    margin-bottom: -20px;
+    margin-left: 30px;
+    width: 200px;
+    height: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid rgb(248, 207, 3);
+    box-shadow: 0 0 16px rgba(4, 252, 252, 0.982); /* White border around the picture */
+  }
+  
+  
+  /* Career Objective and Certification Sections */
+  #objective,
+  #certification {  
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(248, 207, 3); /* Border around the sections */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 0 14px rgba(4, 252, 252, 0.982); /* Softer shadow */
+    padding: 15px;
+    background-color: #151818; /* Background color for contrast */
+  }
+  
+  #certification{
+    margin-top: 10;
+  }
+  
+  #objective h3,
+  #certification h3,#projects {
+    font-size: x-large;
+    margin-top: 10px;
+    color: white;
+    padding: 15px;
+    border: 2px solid rgb(248, 207, 3); /* Border around headings */
+    border-radius: 5px; /* Rounded corners for headings */
+    box-shadow: 0 0 14px rgba(4, 252, 252, 0.982); /* Softer shadow for headings */
+    /* Background color for headings */
+  }
+  h4{
+    
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+    padding: 10px;
+    border: 2px solid rgb(248, 207, 3); /* Border around headings */
+    border-radius: 5px; /* Rounded corners for headings */
+    box-shadow: 0 0 10px rgba(147, 244, 239, 0.982); /* Softer shadow for headings */
+    
+  
+  }
+  
+  #objective p,
+  #certification ul {
+      align-items: center;
+      justify-content: center;
+      color: white;
+    padding: 10px;
+    font-size: 16px; /* Smaller font size */
+  }
+  
+  /* Skills Section */
+  #skills {
+    font-size: large;
+    margin-top: 5px; /* Pushes the skills section to the bottom of the left column */
+  }
+  
+  #skills .skill {
+    margin-bottom: 20px;
+    border: 1px solid rgb(248, 207, 3); /* Border around the skill elements */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 0 14px rgba(147, 244, 239, 0.982); 
+
+    padding: 10px;
+  }
+  
+  .skis, .pss {
+    margin-top: 35px;
+    color: white;
+    padding: 10px;
+    border: 2px solid rgb(248, 207, 3);
+    border-radius: 5px; 
+    box-shadow: 0 0 14px rgba(147, 244, 239, 0.982); 
+    
+  }
+  
+  
+  label {
+    font-size: 25px; /* Smaller font size */
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .progress-bar-container {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    width: 100%;
+    height: 10px;
+    position: relative;
+    margin-top: 2px;
+    margin-bottom: 10px;
+  }
+  
+  .progress-bar {
+    height: 100%;
+    border-radius: 5px;
+  }
+  
+  .html-bar {
+    width: 95%;
+    background-color: rgb(227, 119, 48);
+  }
+  
+  .css-bar {
+    width: 90%;
+    background-color: #c6a953;
+  }
+  
+  .typescript-bar {
+    width: 85%;
+    background-color: #3178c6;
+  }
+  
+  .nextjs-bar {
+    width: 95%;
+    background-color: rgb(153, 219, 54);
+  }
+  
+  .git-bar {
+    width: 80%;
+    background-color: #510441;
+  }
+  .analytical-thinking-bar{
+    width: 90%;
+    background-color: #f2cd39;
+  }
+  .debugging-bar{
+    width: 95%;
+    background-color: #56150b;
+  
+  }
+  .Communication-bar{
+    width: 90%;
+    background-color: #f13bf4;
+  }
+  
+  .figma-bar{
+    width: 85%;
+    background-color: #0808f9;
+  
+  }
+  
+  .percentage {
+    font-weight: bold;
+    color: #0bf3d8;
+  }
+  
+  /* Right Section */
+  .right-section {
+    padding: 30px;
+  border-radius: 10px;
+    width: 65%;
+    color: white; /* Makes all the text white */
+    border: 2px solid   rgb(248, 207, 3);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Softer shadow */
+    background-color:rgb(8, 8, 8) ; 
+      
+    
+  }
+  
+  .right-section h3 {
+    font-size: x-large; /* Larger font size */
+    text-align: center;
+    margin: 48px 0;
+  }
+  
+  .right-section h3 {
+    padding: 2%;
+    border: 1px solid rgb(248, 207, 3);
+    border-radius: 5px; /* Adjusted border radius */
+    box-shadow: 0 0 16px rgba(147, 244, 239, 0.982); /* Softer shadow */
+    color: white;
+  }
+  
+  .right-section p,
+  .right-section ul {
+    font-size: 15px;
+    font-weight: 700;
+    border: 1px solid rgb(248, 207, 3); /* Border around text elements */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(147, 244, 239, 0.982); /* Softer shadow */
+    padding: 15px;
+  }
+  
+  
+  .links {
+    display: flex; /* Displays list items in a row */
+    gap: 10px; /* Adds space between list items */
+    padding: 0px;
+  
+    list-style-type: none; /* Removes default bullet points */
+    align-items: center; /* Vertically centers list items */
+  }
+  
+  .link {
+    margin-right: 8%;
+    list-style-type: circle; /* Adds a circle bullet to each item */
+    list-style-position: inside;
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  
+  .link::before {
+    content: "●"; /* Adds a custom bullet */
+    color: white; /* Sets bullet color */
+    margin-right: 8px; /* Adds space between bullet and link text */
+  }
+  
+  .link a {
+    font-family: cursive;
+    font-weight: 900;
+    font-size: larger;
+    text-decoration: none;
+    color: #09ede2;
+    text-align: center;
+  }
+  
+  .link a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  
+  
+  .email-link {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(28, 250, 250); /* Text color */
+    font-weight: 900; /* Font weight */
+    font-size: larger; /* Font size */
+    text-decoration: none; /* No underline by default */
+  }
+  
+  .email-link:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  
+  
+  .linkedin-link {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(28, 250, 250); /* LinkedIn text color */
+    font-weight: 900; /* Font weight */
+    font-size: larger; /* Font size */
+    text-decoration: none; /* No underline by default */
+  }
+  
+  .linkedin-link:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  .github-link {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(28, 250, 250); /* GitHub text color */
+    font-weight: 900; /* Font weight */
+    font-size: larger; /* Font size */
+    text-decoration: none; /* No underline by default */
+  }
+  
+  .github-link:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  
+  
+  
+  /* Toggle Button */
+  button {
+    margin-bottom: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0ca0dcb;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #21b6b1;
+  }
+  
+  /* Responsive Layout */
+  
+  @media (max-width: 1232px){
+    .profile-picture{
+      margin-left: -8px;
+    }
+  }
+  
+  
+  
+  
+  @media (max-width: 768px) {
+    .resume-container {
+      flex-direction: column;
+      width: 95%;
+      padding: 25px;
+      padding-right: 46px;
+      margin-left: -30px;
+    }
+  
+    .left-section,
+    .right-section {
+      width: 100%;
+      padding: 10px;
+      border-right: none;
+    }
+  
+    .left-section {
+      border-bottom: 6px solid rgb(248, 207, 3); /* Thinner border for mobile view */
+    }
+    .profile-picture{
+      margin-left: 18px;
+    }
+  
+  
+  }
+  
+  
+  @media (min-width: 320px) {
+    .profile-picture{
+      margin-right: 25px;
+    }
+    .hobbies{
+      line-height: 1.2; /* Adjust line height to reduce spacing between lines */
+      letter-spacing: 0px; /* Adjust letter spacing if needed */
+      padding: 0; /* Remove padding around the text */
+      margin: 0; /* Remove margin around the text */
+    }
+    
+  }
